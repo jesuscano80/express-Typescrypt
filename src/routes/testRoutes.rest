@@ -1,2 +1,36 @@
 
 GET http://localhost:3001/
+
+
+### 
+POST http://localhost:3001/signin
+Content-Type: application/json
+
+{ "user": "pruebaaaaa@yahoo.es",
+"password":"1234"
+}
+
+
+### 
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{ "user": "pruebaaasdf@yahoo.es",
+"password":"1234"
+}
+
+
+### GET ALL USERS
+
+GET  http://localhost:3001/getallusers
+Content-Type: application/json
+
+
+### Delete User
+
+DELETE http://localhost:3001/deleteuser
+Content-Type: application/json
+
+{ "id": "63ceae90b0baa5e397c7807b"
+}
