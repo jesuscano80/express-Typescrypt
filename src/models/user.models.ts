@@ -1,9 +1,10 @@
 import {Schema, model} from "mongoose"
 
 const userSchema= new Schema({
-    user:String,
+    email:String,
     password:String,
-    valid: {type:Boolean}
+    valid: {type:Boolean},
+    passwordResetId: String
 },
 {  
     timestamps: false,
